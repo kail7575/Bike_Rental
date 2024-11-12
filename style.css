@@ -1,0 +1,120 @@
+*{
+    margin: 0px;
+    padding: 0;
+    box-sizing:border-box;
+}
+header{
+text-align: center;
+ 
+}
+section{
+    
+    display: grid;
+    place-items:center;
+    position: relative;
+}
+
+body  {
+font-family: Arial, sans-serif;
+margin: 20px;
+padding: 0;
+background:rgba(63, 62, 62, 0.7)  url(1926049-2048x1310-desktop-hd-cycling-mountain-bike-background-image.jpg);
+background-repeat: no-repeat;
+background-blend-mode: darken;
+background-size:cover;
+}
+
+.form-group{
+    padding: 50px;
+}
+.contact-form{
+color: aliceblue;
+border: 1px solid black;
+display: flex;
+flex-direction: column;
+width: 500px ;
+height: 500px;
+padding: 20px;
+margin: 20px;
+background-color: rgba(253, 189, 93, 0.5);
+border-radius: 30px;
+}
+
+banner{
+width: 120px;
+height: 100vh;
+background-image: linear-gradient(rgba(0, 0, 0, 0.753)),url(abstract-orange-background.jpg);
+background-size: cover;
+background-position: center;
+}
+.logo{
+    width: 120px;
+    cursor: pointer;
+}
+banner {
+   
+    color: rgb(0, 0, 0);
+    padding: 10px 20px;
+  
+    text-align: center;
+    
+}
+nav ul {
+    list-style-type: none;
+    padding: 0;
+}
+nav ul li{
+    display: inline;
+    margin-right: 20px;
+}
+nav a{
+    color: white;
+    text-decoration: none;
+}
+#hero{
+    
+    color: #ebebeb;
+    text-align: center;
+    padding: 60px 20px;
+}
+.cta-button {
+    background: #ffffff;
+    color: rgb(0, 0, 0);
+    padding: 10px 20px;
+    text-decoration: none;
+    border-radius: 50px;
+}
+#features {
+    padding: 20px;
+    text-align: center;
+    color: #fcfcfc;
+}
+footer{ 
+
+    color: aliceblue;
+    margin: 10px ;
+    padding: 0;
+    text-align: center;
+    
+
+}
+.container {
+    display: flex;           
+    justify-content: space-around; 
+    gap: 20px;                
+    padding: 20px;
+
+}
+.box {
+    border: 2px solid #8f8f8f; 
+    padding: 20px;          
+    border-radius: 10px;   
+    background: linear-gradient();
+    width: 400px;          
+    margin: 20px auto;      
+    text-align: center; 
+    
+}
+.booking .form{
+    color: beige;
+}
